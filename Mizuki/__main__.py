@@ -75,15 +75,15 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """Hey there, my name is Mizuki.\n\nI am a next gen powerful group manager bot.\n\nHit /help to find my list of available commands."""
+PM_START_TEXT = """Hey there, my name is Katarina.\n\nI am a group manager bot with Music Player.\n\nHit /help to find my list of available commands."""
 buttons = [
     [
-        InlineKeyboardButton(text="♞ Support", url="https://t.me/Infinity_BOTs"),
+        InlineKeyboardButton(text="♞ Bot Owner", url="https://t.me/ppnaravxt"),
         InlineKeyboardButton(text="❔ Help", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="#⃣ Source Code", url="https://github.com/ImJanindu/Mizuki"
+            text="Owner's Channel", url="https://t.me/saibubo"
         ),
     ],
     [
@@ -94,7 +94,7 @@ buttons = [
 ]
 
 HELP_STRINGS = """
-Hey there! My name is *Mizuki*.
+Hey there! My name is *Katarina*.
 I'm a group management bot, here to help you get around and keep the order in your groups!
 
 *Main* commands available:
@@ -106,7 +106,7 @@ I'm a group management bot, here to help you get around and keep the order in yo
    ◔ in a group: will redirect you to pm, with all that chat's settings.
 """
 
-DONATE_STRING = "No Need, I'm Rich 😏"
+DONATE_STRING = "PM @ppnaravxt_bot for donation."
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -359,8 +359,8 @@ def get_help(update: Update, context: CallbackContext):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Support Chat",
-                            url="https://t.me/{}".format(SUPPORT_CHAT),
+                            text="Owner's Channel",
+                            url="https://t.me/saibubo",
                         )
                     ],
                 ]
