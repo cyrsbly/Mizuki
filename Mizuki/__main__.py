@@ -360,7 +360,7 @@ def get_help(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="Owner's Channel",
-                            url="https://t.me/saibubo",
+                            url="https://t.me/saibuboo",
                         )
                     ],
                 ]
